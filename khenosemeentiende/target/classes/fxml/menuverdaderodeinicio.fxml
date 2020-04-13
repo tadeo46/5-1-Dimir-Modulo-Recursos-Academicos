@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.stage.*?>
+
+<Stage xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Dimir.Controller">
+   <scene>
+      <Scene>
+         <AnchorPane prefHeight="403.0" prefWidth="622.0">
+            <children>
+               <Button fx:id="boton_crear_mat" layoutX="28.0" layoutY="36.0" mnemonicParsing="false" onAction="#crearmateria" prefHeight="54.0" prefWidth="122.0" text="Crear Materias" />
+               <Button fx:id="boton_crear_plan" layoutX="28.0" layoutY="130.0" mnemonicParsing="false" onAction="#crearplan" prefHeight="54.0" prefWidth="182.0" text="Crear Plan de estudio" />
+               <Button fx:id="boton_crear_carrera" layoutX="30.0" layoutY="229.0" mnemonicParsing="false" onAction="#creacarrera" prefHeight="54.0" prefWidth="122.0" text="Crear Carrera" />
+               <Button fx:id="boton_crear_aula" layoutX="28.0" layoutY="324.0" mnemonicParsing="false" onAction="#creaaulas" prefHeight="54.0" prefWidth="122.0" text="Crear Aula" />
+               <Button fx:id="boton_crear_profesor" layoutX="266.0" layoutY="36.0" mnemonicParsing="false" onAction="#crearprofe" prefHeight="55.0" prefWidth="126.0" text="Crear profesor" />
+               <Button fx:id="boton_buscar_plan" layoutX="254.0" layoutY="128.0" mnemonicParsing="false" onAction="#buscarplan" prefHeight="65.0" prefWidth="139.0" text="Buscar plan" />
+               <Button fx:id="boton_modi_plan" layoutX="269.0" layoutY="228.0" mnemonicParsing="false" onAction="#modiplan" prefHeight="58.0" prefWidth="110.0" text="Modificar plan" />
+               <Button fx:id="boton_buscar_aula" layoutX="262.0" layoutY="326.0" mnemonicParsing="false" onAction="#buscaaula" prefHeight="49.0" prefWidth="104.0" text="Buscar aula" />
+               <Button fx:id="boton_modificar_aula" layoutX="476.0" layoutY="35.0" mnemonicParsing="false" onAction="#modifiaula" prefHeight="57.0" prefWidth="137.0" text="modificar aula" />
+               <Button fx:id="boton_buscar_materia" layoutX="473.0" layoutY="125.0" mnemonicParsing="false" onAction="#buscamateria" prefHeight="65.0" prefWidth="148.0" text="Buscar materia" />
+               <Button fx:id="boton_modificar_materia" layoutX="477.0" layoutY="229.0" mnemonicParsing="false" onAction="#modimateria" prefHeight="54.0" prefWidth="141.0" text="Modificar materia" />
+            </children></AnchorPane>
+      </Scene>
+   </scene>
+</Stage>

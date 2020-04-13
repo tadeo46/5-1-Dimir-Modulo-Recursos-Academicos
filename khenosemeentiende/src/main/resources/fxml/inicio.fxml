@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.stage.*?>
+
+<Stage xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Dimir.Controller">
+    <scene>
+        <Scene>
+            <AnchorPane prefHeight="299.0" prefWidth="461.0">
+            <children>
+               <Button layoutX="170.0" layoutY="230.0" mnemonicParsing="false" onAction="#fernanflo" text="DICELO ZTICMA" />
+               <TextField fx:id="textonuevoplanestudioclave" layoutX="198.0" layoutY="52.0" />
+               <Label layoutX="25.0" layoutY="57.0" text="clave plan de estudios" />
+               <Label layoutX="25.0" layoutY="92.0" text="Nombre plan de estudios" />
+               <Label layoutX="29.0" layoutY="134.0" text="Nivel plan de estudio" />
+               <Label layoutX="27.0" layoutY="181.0" prefHeight="16.0" prefWidth="130.0" text="Id plan de estudio" />
+               <TextField fx:id="nuevonombreplanestudios" layoutX="206.0" layoutY="87.0" />
+               <TextField fx:id="nuevonivelplanestudio" layoutX="198.0" layoutY="137.0" />
+               <TextField fx:id="nuevoidplandeestudio" layoutX="198.0" layoutY="176.0" />
+            </children></AnchorPane>
+        </Scene>
+    </scene>
+</Stage>

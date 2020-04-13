@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.stage.*?>
+
+<Stage xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Dimir.Controller">
+    <scene>
+        <Scene>
+            <AnchorPane prefHeight="299.0" prefWidth="461.0">
+            <children>
+               <Label layoutX="68.0" layoutY="39.0" text="clave de plan" />
+               <TextField fx:id="planclavemodificar" layoutX="196.0" layoutY="34.0" />
+               <TextField fx:id="nuevonombredeplan" layoutX="196.0" layoutY="93.0" />
+               <Label layoutX="64.0" layoutY="98.0" text="nuevo nombre" />
+               <Label layoutX="72.0" layoutY="142.0" text="Nuevo nivel" />
+               <TextField fx:id="nuevoniveldeplan" layoutX="196.0" layoutY="145.0" />
+               <Button layoutX="192.0" layoutY="209.0" mnemonicParsing="false" onAction="#modificarplan" text="Modificar" />
+            </children></AnchorPane>
+        </Scene>
+    </scene>
+</Stage>

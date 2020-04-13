@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.stage.*?>
+
+<Stage xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Dimir.Controller">
+    <scene>
+        <Scene>
+            <AnchorPane prefHeight="299.0" prefWidth="461.0">
+            <children>
+               <Label layoutX="30.0" layoutY="59.0" text="clave de aula" />
+               <Label layoutX="34.0" layoutY="107.0" text="tipo de aula" />
+               <Label layoutX="50.0" layoutY="166.0" text="Edificio" />
+               <TextField fx:id="nuevaclavedeaula" layoutX="183.0" layoutY="54.0" />
+               <TextField fx:id="nuevotipodeaula" layoutX="183.0" layoutY="102.0" />
+               <TextField fx:id="nuevoedificio" layoutX="183.0" layoutY="153.0" />
+               <Button layoutX="238.0" layoutY="234.0" mnemonicParsing="false" onAction="#crearaulas" text="Button" />
+            </children></AnchorPane>
+        </Scene>
+    </scene>
+</Stage>

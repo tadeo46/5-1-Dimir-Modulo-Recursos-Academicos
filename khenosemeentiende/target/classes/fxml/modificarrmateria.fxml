@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.stage.*?>
+
+<Stage xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Dimir.Controller">
+    <scene>
+        <Scene>
+            <AnchorPane prefHeight="430.0" prefWidth="461.0">
+            <children>
+               <Label layoutX="29.0" layoutY="45.0" text="Clave materia a buscar" />
+               <TextField fx:id="clavemateriadebuscar" layoutX="191.0" layoutY="40.0" />
+               <TextField fx:id="nuevonombredemateria" layoutX="191.0" layoutY="91.0" />
+               <TextField fx:id="nuevocreditodemateria" layoutX="191.0" layoutY="137.0" />
+               <TextField fx:id="nuevocuatridemateria" layoutX="191.0" layoutY="184.0" />
+               <TextField fx:id="nuevaposiciondemateria" layoutX="191.0" layoutY="231.0" />
+               <TextField fx:id="nuevoplandeestudio" layoutX="191.0" layoutY="278.0" />
+               <Label layoutX="19.0" layoutY="96.0" text="Nuevo nombre de materia" />
+               <Label layoutX="53.0" layoutY="142.0" text="Nuevos creditos" />
+               <Label layoutX="40.0" layoutY="189.0" text="Nuevo cuatrimestre" />
+               <Label layoutX="55.0" layoutY="236.0" text="NUeva posicion" />
+               <Label layoutX="32.0" layoutY="283.0" text="Nueva plan de estudio" />
+               <Button layoutX="200.0" layoutY="349.0" mnemonicParsing="false" onAction="#modificarmateria" text="Modificar" />
+            </children></AnchorPane>
+        </Scene>
+    </scene>
+</Stage>

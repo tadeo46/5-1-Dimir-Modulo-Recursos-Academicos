@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.stage.*?>
+
+<Stage xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Dimir.Controller">
+   <scene>
+      <Scene>
+         <AnchorPane prefHeight="448.0" prefWidth="519.0">
+            <children>
+               <TextField fx:id="nuevaclavedemateria" layoutX="215.0" layoutY="29.0" />
+               <TextField fx:id="nombredemateria" layoutX="215.0" layoutY="82.0" />
+               <TextField fx:id="nuevocreditosmateria" layoutX="215.0" layoutY="136.0" />
+               <TextField fx:id="nuevocuatrimateria" layoutX="215.0" layoutY="187.0" />
+               <TextField fx:id="NuevaPosicionmateria" layoutX="215.0" layoutY="244.0" />
+               <TextField fx:id="nuevoclavedeplan" layoutX="215.0" layoutY="296.0" />
+               <TextField fx:id="nuevotipodeplanmateria" layoutX="215.0" layoutY="342.0" />
+               <Label layoutX="52.0" layoutY="34.0" text="Clave de materia" />
+               <Label layoutX="44.0" layoutY="87.0" text="Nombre de materia" />
+               <Label layoutX="81.0" layoutY="141.0" text="Creditos" />
+               <Label layoutX="66.0" layoutY="192.0" text="Cuatrimestre" />
+               <Label layoutX="81.0" layoutY="249.0" text="Posicion" />
+               <Label layoutX="64.0" layoutY="301.0" text="Clave de plan" />
+               <Label layoutX="68.0" layoutY="347.0" text="Tipo de plan" />
+               <Button layoutX="238.0" layoutY="397.0" mnemonicParsing="false" onAction="#willy" text="Guardar materia" />
+            </children></AnchorPane>
+      </Scene>
+   </scene>
+</Stage>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.stage.*?>
+
+<Stage xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Dimir.Controller">
+    <scene>
+        <Scene>
+            <AnchorPane prefHeight="299.0" prefWidth="461.0">
+            <children>
+               <Button layoutX="123.0" layoutY="230.0" mnemonicParsing="false" onAction="#fernanflo" style="-fx-background-color: green;" text="Agregar">
+                  <font>
+                     <Font name="Bookman Old Style" size="14.0" />
+                  </font>
+                  <effect>
+                     <ColorAdjust brightness="0.38" contrast="1.0" saturation="0.5" />
+                  </effect></Button>
+               <TextField fx:id="textonuevoplanestudioclave" layoutX="301.0" layoutY="74.0" />
+               <Label layoutX="10.0" layoutY="73.0" text="Clave plan de estudios">
+                  <font>
+                     <Font name="Bookman Old Style" size="22.0" />
+                  </font></Label>
+               <Label layoutX="10.0" layoutY="108.0" text="Nombre plan de estudios">
+                  <font>
+                     <Font name="Bookman Old Style" size="22.0" />
+                  </font></Label>
+               <Label layoutX="10.0" layoutY="142.0" text="Nivel plan de estudio">
+                  <font>
+                     <Font name="Bookman Old Style" size="22.0" />
+                  </font></Label>
+               <Label layoutX="11.0" layoutY="176.0" prefHeight="27.0" prefWidth="207.0" text="Id plan de estudio">
+                  <font>
+                     <Font name="Bookman Old Style" size="22.0" />
+                  </font></Label>
+               <TextField fx:id="nuevonombreplanestudios" layoutX="301.0" layoutY="109.0" />
+               <TextField fx:id="nuevonivelplanestudio" layoutX="302.0" layoutY="143.0" />
+               <TextField fx:id="nuevoidplandeestudio" layoutX="302.0" layoutY="177.0" />
+               <Label alignment="CENTER" prefHeight="61.0" prefWidth="461.0" style="-fx-background-color: purple;" text="Crear plan de estudios">
+                  <font>
+                     <Font name="Bookman Old Style" size="33.0" />
+                  </font>
+                  <effect>
+                     <ColorAdjust brightness="0.35" contrast="1.0" saturation="0.5" />
+                  </effect>
+               </Label>
+               <Button fx:id="boton_regresar" layoutX="252.0" layoutY="231.0" mnemonicParsing="false" onAction="#Regresarinicio" style="-fx-background-color: red;" text="Regresar">
+                  <font>
+                     <Font name="Bookman Old Style" size="14.0" />
+                  </font>
+                  <effect>
+                     <ColorAdjust brightness="0.38" contrast="1.0" saturation="0.5" />
+                  </effect>
+               </Button>
+            </children></AnchorPane>
+        </Scene>
+    </scene>
+</Stage>

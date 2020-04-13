@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.stage.*?>
+
+<Stage xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Dimir.Controller">
+   <scene>
+      <Scene>
+         <AnchorPane prefHeight="403.0" prefWidth="412.0">
+            <children>
+               <Button fx:id="boton_crear_mat" layoutX="14.0" layoutY="115.0" mnemonicParsing="false" onAction="#crearmateria" prefHeight="25.0" prefWidth="186.0" text="Crear Materias">
+                  <font>
+                     <Font name="Bookman Old Style" size="12.0" />
+                  </font></Button>
+               <Button fx:id="boton_crear_plan" layoutX="14.0" layoutY="151.0" mnemonicParsing="false" onAction="#crearplan" prefHeight="26.0" prefWidth="185.0" text="Crear Plan de estudio">
+                  <font>
+                     <Font name="Bookman Old Style" size="12.0" />
+                  </font></Button>
+               <Button fx:id="boton_crear_carrera" layoutX="14.0" layoutY="186.0" mnemonicParsing="false" onAction="#creacarrera" prefHeight="26.0" prefWidth="185.0" text="Crear Carrera">
+                  <font>
+                     <Font name="Bookman Old Style" size="12.0" />
+                  </font></Button>
+               <Button fx:id="boton_crear_aula" layoutX="14.0" layoutY="222.0" mnemonicParsing="false" onAction="#creaaulas" prefHeight="18.0" prefWidth="185.0" text="Crear Aula">
+                  <font>
+                     <Font name="Bookman Old Style" size="12.0" />
+                  </font></Button>
+               <Button fx:id="boton_crear_profesor" layoutX="14.0" layoutY="256.0" mnemonicParsing="false" onAction="#crearprofe" prefHeight="19.0" prefWidth="185.0" text="Crear profesor">
+                  <font>
+                     <Font name="Bookman Old Style" size="12.0" />
+                  </font></Button>
+               <Button fx:id="boton_buscar_plan" layoutX="237.0" layoutY="114.0" mnemonicParsing="false" onAction="#buscarplan" prefHeight="20.0" prefWidth="170.0" text="Buscar plan">
+                  <font>
+                     <Font name="Bookman Old Style" size="12.0" />
+                  </font></Button>
+               <Button fx:id="boton_modi_plan" layoutX="237.0" layoutY="148.0" mnemonicParsing="false" onAction="#modiplan" prefHeight="26.0" prefWidth="170.0" text="Modificar plan">
+                  <font>
+                     <Font name="Bookman Old Style" size="12.0" />
+                  </font></Button>
+               <Button fx:id="boton_buscar_aula" layoutX="237.0" layoutY="184.0" mnemonicParsing="false" onAction="#buscaaula" prefHeight="26.0" prefWidth="170.0" text="Buscar aula">
+                  <font>
+                     <Font name="Bookman Old Style" size="12.0" />
+                  </font></Button>
+               <Button fx:id="boton_modificar_aula" layoutX="237.0" layoutY="219.0" mnemonicParsing="false" onAction="#modifiaula" prefHeight="26.0" prefWidth="171.0" text="modificar aula">
+                  <font>
+                     <Font name="Bookman Old Style" size="12.0" />
+                  </font></Button>
+               <Button fx:id="boton_buscar_materia" layoutX="236.0" layoutY="254.0" mnemonicParsing="false" onAction="#buscamateria" prefHeight="26.0" prefWidth="172.0" text="Buscar materia">
+                  <font>
+                     <Font name="Bookman Old Style" size="12.0" />
+                  </font></Button>
+               <Button fx:id="boton_modificar_materia" layoutX="236.0" layoutY="290.0" mnemonicParsing="false" onAction="#modimateria" prefHeight="21.0" prefWidth="172.0" text="Modificar materia">
+                  <font>
+                     <Font name="Bookman Old Style" size="12.0" />
+                  </font></Button>
+               <Label alignment="CENTER" prefHeight="57.0" prefWidth="430.0" style="-fx-background-color: purple;" text="MENU">
+                  <font>
+                     <Font name="Bookman Old Style" size="33.0" />
+                  </font>
+                  <effect>
+                     <ColorAdjust brightness="0.38" contrast="1.0" saturation="0.5" />
+                  </effect>
+               </Label>
+               <Separator layoutY="56.0" prefHeight="1.0" prefWidth="430.0" />
+               <Separator layoutX="215.0" layoutY="57.0" orientation="VERTICAL" prefHeight="346.0" prefWidth="4.0" />
+               <Label alignment="CENTER" layoutX="15.0" layoutY="64.0" prefHeight="32.0" prefWidth="185.0" text="Agregar">
+                  <font>
+                     <Font name="Bookman Old Style" size="22.0" />
+                  </font>
+               </Label>
+               <Label alignment="CENTER" layoutX="236.0" layoutY="58.0" prefHeight="54.0" prefWidth="170.0" text="Buscar y modificar" textAlignment="CENTER" wrapText="true">
+                  <font>
+                     <Font name="Bookman Old Style" size="22.0" />
+                  </font>
+               </Label>
+            </children></AnchorPane>
+      </Scene>
+   </scene>
+</Stage>

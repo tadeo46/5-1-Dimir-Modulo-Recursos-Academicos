@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.stage.*?>
+
+<Stage xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Dimir.Controller">
+    <scene>
+        <Scene>
+            <AnchorPane prefHeight="299.0" prefWidth="461.0">
+            <children>
+               <Label layoutX="35.0" layoutY="89.0" text="Clave de aula:">
+                  <font>
+                     <Font name="Bookman Old Style" size="22.0" />
+                  </font></Label>
+               <Label layoutX="35.0" layoutY="127.0" text="Tipo de aula:">
+                  <font>
+                     <Font name="Bookman Old Style" size="22.0" />
+                  </font></Label>
+               <Label layoutX="35.0" layoutY="163.0" text="Edificio:">
+                  <font>
+                     <Font name="Bookman Old Style" size="22.0" />
+                  </font></Label>
+               <TextField fx:id="nuevaclavedeaula" layoutX="274.0" layoutY="90.0" />
+               <TextField fx:id="nuevotipodeaula" layoutX="274.0" layoutY="128.0" />
+               <TextField fx:id="nuevoedificio" layoutX="274.0" layoutY="164.0" />
+               <Button layoutX="145.0" layoutY="229.0" mnemonicParsing="false" onAction="#crearaulas" style="-fx-background-color: green;" text="Agregar">
+                  <effect>
+                     <ColorAdjust brightness="0.38" contrast="1.0" saturation="0.5" />
+                  </effect>
+                  <font>
+                     <Font name="Bookman Old Style" size="14.0" />
+                  </font></Button>
+               <Label alignment="CENTER" prefHeight="64.0" prefWidth="462.0" style="-fx-background-color: purple;" text="Crear Aula">
+                  <font>
+                     <Font name="Bookman Old Style" size="33.0" />
+                  </font>
+                  <effect>
+                     <ColorAdjust brightness="0.38" contrast="1.0" saturation="0.5" />
+                  </effect>
+               </Label>
+               <Button fx:id="boton_regresar" layoutX="248.0" layoutY="229.0" mnemonicParsing="false" onAction="#Regresarinicio" style="-fx-background-color: red;" text="Regresar">
+                  <font>
+                     <Font name="Bookman Old Style" size="14.0" />
+                  </font>
+                  <effect>
+                     <ColorAdjust brightness="0.38" contrast="1.0" saturation="0.5" />
+                  </effect>
+               </Button>
+            </children></AnchorPane>
+        </Scene>
+    </scene>
+</Stage>

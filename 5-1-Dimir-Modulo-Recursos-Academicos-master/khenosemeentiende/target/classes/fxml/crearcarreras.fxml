@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.stage.*?>
+
+<Stage xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Dimir.Controller">
+    <scene>
+        <Scene>
+            <AnchorPane prefHeight="299.0" prefWidth="461.0">
+            <children>
+               <TextField fx:id="nuevacrearcarreraid" layoutX="286.0" layoutY="122.0" />
+               <TextField fx:id="nuevacrearcarreranombre" layoutX="286.0" layoutY="158.0" />
+               <Label layoutX="46.0" layoutY="121.0" text="Id carrera:">
+                  <font>
+                     <Font name="Bookman Old Style" size="22.0" />
+                  </font></Label>
+               <Label layoutX="46.0" layoutY="157.0" text="Nombre carrera:">
+                  <font>
+                     <Font name="Bookman Old Style" size="22.0" />
+                  </font></Label>
+               <Button layoutX="142.0" layoutY="223.0" mnemonicParsing="false" onAction="#crearcarreras" style="-fx-background-color: green;" text="Agregar">
+                  <font>
+                     <Font name="Bookman Old Style" size="14.0" />
+                  </font>
+                  <effect>
+                     <ColorAdjust brightness="0.38" contrast="1.0" saturation="0.5" />
+                  </effect></Button>
+               <Label alignment="CENTER" prefHeight="68.0" prefWidth="462.0" style="-fx-background-color: purple;" text="Crear carrera">
+                  <font>
+                     <Font name="Bookman Old Style" size="33.0" />
+                  </font>
+                  <effect>
+                     <ColorAdjust brightness="0.38" contrast="1.0" saturation="0.5" />
+                  </effect>
+               </Label>
+               <Button fx:id="boton_regresar" layoutX="265.0" layoutY="223.0" mnemonicParsing="false" onAction="#Regresarinicio" style="-fx-background-color: red;" text="Regresar">
+                  <font>
+                     <Font name="Bookman Old Style" size="14.0" />
+                  </font>
+                  <effect>
+                     <ColorAdjust brightness="0.38" contrast="1.0" saturation="0.5" />
+                  </effect>
+               </Button>
+            </children></AnchorPane>
+        </Scene>
+    </scene>
+</Stage>
